@@ -1,20 +1,20 @@
-Question : Explain very briefly the difference between Git and GitHub. 
+Question : Explain the difference between Git and GitHub very briefly. 
 
 Answer:
 
-# GIT : Git is a distributed version control system that tracks changes to source code. 
-# GITHUB : GitHub is a web-based hosting service for git repository. 
+# GIT: Git is a distributed version control system that tracks changes to source code. 
+# GITHUB : GitHub is a web-based hosting service for the git repository. 
 
 Differences:
-Git is a command line interface (CLI) , a command line tool that requires a interface to interact with the system. Where as GitHub is a graphical interface and a development platform created for developers. 
+Git is a command line interface (CLI) , a command line tool requiring an interface to interact with the system. Where as GitHub is a graphical interface and a development platform created for developers. 
 
-GitHub is a open source it mean code is stored in its main server, but in case of git it creates a local repository to track the changes locally. 
+GitHub is a open source it mean code is stored in its main server, but in the case of git it creates a local repository to track the changes locally. 
 
-Git can be installed locally but GitHub is hosted on cloud server. 
+Git can be installed locally, but GitHub is hosted on a cloud server. 
 Git stores and catalog changes in code in a repository. 
-GitHub provides a platform to collaborate with others to work together at same time. 
+GitHub provides a platform to collaborate with others to work together at the same time. 
 Git can run without GitHub as other web-based git repositories are also available. 
-Question : Explain very briefly any 5 basic git commands.
+Question : Explain any 5 basic git commands very briefly.
 
 Answer:  5 basic Git commands
 
@@ -24,7 +24,7 @@ It Creates a copy of an existing Git repository. Cloning is the most common way 
 
 # git fetch 
 
-Fetching downloads a branch from another repository, along with all of its associated commits and files. But, it doesn't try to integrate anything into out local repository. This gives us a chance to inspect changes before merging them with our project.
+Fetching downloads a branch from another repository, along with all of its associated commits and files. But, it doesn't try to integrate anything into our local repository. This gives us a chance to inspect changes before merging them with our project.
 
 # git clean
 
