@@ -1,0 +1,67 @@
+Question : Explain very briefly the difference between Git and GitHub. 
+
+Answer:
+
+# GIT : Git is a distributed version control system that tracks changes to source code. 
+# GITHUB : GitHub is a web-based hosting service for git repository. 
+
+Differences:
+Git is a command line interface (CLI) , a command line tool that requires a interface to interact with the system. Where as GitHub is a graphical interface and a development platform created for developers. 
+
+GitHub is a open source it mean code is stored in its main server, but in case of git it creates a local repository to track the changes locally. 
+
+Git can be installed locally but GitHub is hosted on cloud server. 
+Git stores and catalog changes in code in a repository. 
+GitHub provides a platform to collaborate with others to work together at same time. 
+Git can run without GitHub as other web-based git repositories are also available. 
+Question : Explain very briefly any 5 basic git commands.
+
+Answer:  5 basic Git commands
+
+# git clone 
+
+It Creates a copy of an existing Git repository. Cloning is the most common way for us to obtain a  copy of a main repository. We can copy the whole repositories into our device by using this simple command. 
+
+# git fetch 
+
+Fetching downloads a branch from another repository, along with all of its associated commits and files. But, it doesn't try to integrate anything into out local repository. This gives us a chance to inspect changes before merging them with our project.
+
+# git clean
+
+Removes untracked files from the working directory. This is the logical counterpart to git reset, which only operates on tracked files.
+
+# git init
+
+This is the command we need to use if we want to start a new empty repository or to reinitialize an existing one in the project root. It will create a .git directory with its subdirectories
+
+# git commit
+
+After changes are done locally, we can save them by “committing” them. A commit is like local a snapshot of the current state of the branch, to which we can always come back.Question : How to make a Pull Request?
+
+Answer: 
+Steps: using GUI GitHub
+# select a project we want to contribute to
+# Fork it
+# Clone it to your local system
+# Make a new branch
+# Make your changes
+#Push it back to our repo
+#Click the Compare & pull request button
+# Click Create pull request to open a new pull request
+
+With command line :
+
+To create a pull request, use the " gh pr " create subcommand.
+
+"gh pr create"
+
+In desktop ( GitHub website) :
+# 1st we need to Switch to the branch that we want to create a pull request for. 
+
+# Click Create Pull Request. GitHub desktop will   take you to GitHub.
+# Click The Create Pull Request button
+On GitHub, confirm that the branch in the base: drop-down menu is the branch where you want to merge your changes. Confirm that the branch in the compare: drop-down menu is the topic branch where you made your changes.
+Drop-down menus for choosing the base and compare branches
+# Type a title and description for your pull request.
+# Pull request title and description fields
+To create a pull request that is ready for review, click Create Pull Request. To create a draft pull request, use the drop-down and select Create Draft Pull Request, then click Draft Pull Request
